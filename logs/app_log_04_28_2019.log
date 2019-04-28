@@ -1,0 +1,12 @@
+[2019-04-28 17:26:00] develop.INFO: test log  
+[2019-04-28 17:26:00] develop.ERROR: Error: Call to undefined method Apr\ExceptionHandling\Config::env() in C:\OtherProjects\exception-handling\app\Mailer\Mailer.php:12 Stack trace: #0 C:\OtherProjects\exception-handling\app\Mailer\Mail.php(45): Apr\ExceptionHandling\Mailer\Mailer->send(Object(Apr\ExceptionHandling\Mailer\Mail)) #1 C:\OtherProjects\exception-handling\public\index.php(13): Apr\ExceptionHandling\Mailer\Mail->send() #2 {main}  
+[2019-04-28 17:26:31] develop.INFO: test log  
+[2019-04-28 17:26:31] develop.INFO: {"to":["alex@alexrusin.com"],"from":["info@app.com"],"message":"Hello there"}  
+[2019-04-28 17:36:49] develop.INFO: test log  
+[2019-04-28 17:36:49] develop.ERROR: Error: Class 'Apr\ExceptionHandling\Mailer\Swift_SmtpTransport' not found in C:\OtherProjects\exception-handling\app\Mailer\Mailer.php:14 Stack trace: #0 C:\OtherProjects\exception-handling\app\Mailer\Mail.php(52): Apr\ExceptionHandling\Mailer\Mailer->send(Object(Apr\ExceptionHandling\Mailer\Mail)) #1 C:\OtherProjects\exception-handling\public\index.php(14): Apr\ExceptionHandling\Mailer\Mail->send() #2 {main}  
+[2019-04-28 17:39:24] develop.INFO: test log  
+[2019-04-28 18:00:21] develop.INFO: test log  
+[2019-04-28 18:04:03] develop.INFO: test log  
+[2019-04-28 18:04:03] develop.ERROR: InvalidArgumentException: There is no message to log in C:\OtherProjects\exception-handling\app\Log.php:36 Stack trace: #0 C:\OtherProjects\exception-handling\public\index.php(9): Apr\ExceptionHandling\Log::__callStatic('info', Array) #1 {main}  
+[2019-04-28 18:04:39] production.INFO: test log  
+[2019-04-28 18:04:39] production.ERROR: InvalidArgumentException: There is no message to log in C:\OtherProjects\exception-handling\app\Log.php:36 Stack trace: #0 C:\OtherProjects\exception-handling\public\index.php(9): Apr\ExceptionHandling\Log::__callStatic('info', Array) #1 {main}  
