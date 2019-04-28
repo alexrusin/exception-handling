@@ -19,6 +19,9 @@ class ExceptionHandler
                 ->subject('Exception occured')
                 ->message($exception)
                 ->send();
+            
+            throw $exception;
+            // or display 500 error page
         }
     }
 }
