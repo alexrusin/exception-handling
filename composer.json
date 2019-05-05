@@ -9,7 +9,8 @@
     "require": {
         "filp/whoops": "^2.3",
         "monolog/monolog": "^1.24",
-        "swiftmailer/swiftmailer": "^6.0"
+        "swiftmailer/swiftmailer": "^6.0",
+        "mandrill/mandrill": "^1.0"
     },
 
     "autoload": {
